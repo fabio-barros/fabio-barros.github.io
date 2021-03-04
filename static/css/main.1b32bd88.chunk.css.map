@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/styles/css/App.css"],"names":[],"mappings":"AAAA,EACE,SAAU,CACV,QACF,CAEA,KACE,iBAAkB,CAClB,cACF","file":"main.1b32bd88.chunk.css","sourcesContent":["* {\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n\r\nbody {\r\n  position: relative;\r\n  font-size: 1rem;\r\n}\r\n"]}
