@@ -1,0 +1,29 @@
+@import "./variables.scss";
+
+.navbar {
+    height: 3em;
+    background-color: $mainColor;
+    font-family: "Russo One", sans-serif;
+    // border: 1px dashed pink;
+    border-radius: $introBorder;
+    font-family: $secondaryText;
+
+    .dots-wrapper {
+        .dots {
+            background-color: black;
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            margin-left: 0.5em;
+        }
+        #dot-1 {
+            background-color: #fc6058;
+        }
+        #dot-2 {
+            background-color: #fec02f;
+        }
+        #dot-3 {
+            background-color: #2aca3e;
+        }
+    }
+}

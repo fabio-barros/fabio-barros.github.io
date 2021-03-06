@@ -1,0 +1,85 @@
+@import "../sass/variables.scss";
+
+.skills-wrapper {
+    h2,
+    h3,
+    p {
+        color: #fff;
+    }
+    .skills-header-row {
+        // border: 1px solid lightcoral;
+        .skills-header-col {
+            // border: 1px solid lightblue;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 1.5em;
+        }
+    }
+
+    .skills-icons-row {
+        // border: 1px dashed darkcyan;
+        padding: 1em;
+        .skills-icons-cols {
+            // border: 1px dashed darkmagenta;
+            display: grid;
+            padding: 0;
+            justify-items: center;
+            // justify-content: center;
+            // align-items: center;
+            // padding: 2em;
+
+            .test-row {
+                border: 1px solid white;
+                // display: grid;
+                // text-align: center;
+                // display: flex;
+                // justify-items: center;
+                .test-col {
+                    border: 1px solid green;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    justify-items: center;
+                    text-align: center;
+                }
+                .chartjs-col{
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    justify-items: center;
+                    text-align: center;
+                }
+            }
+
+            .icon-row {
+                // border: 1px solid;
+                margin: 1em;
+                width: 80%;
+                .icon-col {
+                    border: 1px solid red;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+            }
+            .subtitle-row {
+                width: 80%;
+                .icon-subtitle {
+                    border: 1px solid red;
+                    // padding: 1em;
+                    display: flex;
+                    justify-content: space-around;
+                }
+
+                // .express-col{
+                //     padding-right: 1em;
+                // }
+                #frontend-icon-1 {
+                    margin-right: 1.5em;
+                }
+            }
+        }
+    }
+}

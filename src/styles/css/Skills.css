@@ -1,0 +1,70 @@
+.skills-wrapper h2,
+.skills-wrapper h3,
+.skills-wrapper p {
+  color: #fff;
+}
+
+.skills-wrapper .skills-header-row .skills-header-col {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.skills-wrapper .skills-icons-row {
+  padding: 1em;
+}
+
+.skills-wrapper .skills-icons-row .skills-icons-cols {
+  display: grid;
+  padding: 0;
+  justify-items: center;
+}
+
+.skills-wrapper .skills-icons-row .skills-icons-cols .test-row {
+  border: 1px solid white;
+}
+
+.skills-wrapper .skills-icons-row .skills-icons-cols .test-row .test-col {
+  border: 1px solid green;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.skills-wrapper .skills-icons-row .skills-icons-cols .test-row .chartjs-col {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.skills-wrapper .skills-icons-row .skills-icons-cols .icon-row {
+  margin: 1em;
+  width: 80%;
+}
+
+.skills-wrapper .skills-icons-row .skills-icons-cols .icon-row .icon-col {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-wrapper .skills-icons-row .skills-icons-cols .subtitle-row {
+  width: 80%;
+}
+
+.skills-wrapper .skills-icons-row .skills-icons-cols .subtitle-row .icon-subtitle {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-wrapper .skills-icons-row .skills-icons-cols .subtitle-row #frontend-icon-1 {
+  margin-right: 1.5em;
+}

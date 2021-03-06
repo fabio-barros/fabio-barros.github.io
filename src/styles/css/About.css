@@ -1,0 +1,19 @@
+.about-wrapper {
+  padding: 0;
+}
+
+.about-wrapper .about-me-col {
+  border: 1px dashed pink;
+  display: grid;
+  align-items: center;
+}
+
+.about-wrapper .about-me-col .about-me {
+  border: 1px dashed lightblue;
+  display: block;
+  justify-content: center;
+}
+
+.about-wrapper .playlist {
+  border: 1px dashed lightblue;
+}

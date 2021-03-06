@@ -1,0 +1,27 @@
+.navbar {
+  height: 3em;
+  background-color: #eaeaea;
+  font-family: "Russo One", sans-serif;
+  border-radius: 5px 5px 0 0;
+  font-family: #4b5156;
+}
+
+.navbar .dots-wrapper .dots {
+  background-color: black;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-left: 0.5em;
+}
+
+.navbar .dots-wrapper #dot-1 {
+  background-color: #fc6058;
+}
+
+.navbar .dots-wrapper #dot-2 {
+  background-color: #fec02f;
+}
+
+.navbar .dots-wrapper #dot-3 {
+  background-color: #2aca3e;
+}
